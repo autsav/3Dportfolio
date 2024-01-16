@@ -1,0 +1,11 @@
+Model Information:
+* title:	Apple MacPro (low poly)
+* source:	https://sketchfab.com/3d-models/apple-macpro-low-poly-fee210eb736347889a79b37d16703897
+* author:	Andrey 3D (https://sketchfab.com/Andrey3Ds)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Apple MacPro (low poly)" (https://sketchfab.com/3d-models/apple-macpro-low-poly-fee210eb736347889a79b37d16703897) by Andrey 3D (https://sketchfab.com/Andrey3Ds) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

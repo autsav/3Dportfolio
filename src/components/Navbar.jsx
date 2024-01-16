@@ -46,7 +46,7 @@ const Navbar = () => {
                       font-bold
                       cursor-pointer
                       flex
-                      ' >Utsab &nbsp;
+                      ' >Utsab &nbsp; 
                        <span className='sm:block hidden'>|
                        Adhikari</span>
         </p>
