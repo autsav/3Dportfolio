@@ -1,11 +1,13 @@
 import React, {useRef, useState} from 'react'
 import { motion } from 'framer-motion'
-import email from '@emailjs/browser'
+import emailjs from '@emailjs/browser'
 
 import { styles } from '../styles'
 import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
+
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -18,10 +20,43 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
+    const {name, value } = e.target;
+    setForm({ ...form , [name]:value })
 
   }
 
   const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    // TNHSq7TY-p8TZGPZn
+// template_4bbbx27
+// service_e088y1f
+
+    emailjs.send(
+      'service_e088y1f',
+      'template_4bbbx27',
+      {
+        from_name: form.name,
+        to_name: 'Utsab Adhikari',
+        from_email : form.email,
+        to_email:'autsav73@gmail.com',
+        message: form.message,
+      },
+      'TNHSq7TY-p8TZGPZn'
+      ).then(() => {
+        setLoading(false);
+        alert('Thank you. I will get back to you as soon as possible');
+        setForm({
+          name:'',
+          email:'',
+          message:'',
+        })
+      }, (error) => {
+        setLoading(false)
+        console.log(error);
+        alert('Something went wrong.')
+      })
 
   }
 
