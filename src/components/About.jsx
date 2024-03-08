@@ -42,10 +42,11 @@ const About = () => {
         variants={fadeIn("","",0.1,1)}
         className='mt- text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-      I possess proficiency in TypeScript and JavaScript as a seasoned software developer.
-       My expertise extends to frameworks such as React, Node.js, and Three.js. A rapid learner,
-        I engage in close collaboration with clients to craft effective, scalable, and user-friendly solutions that address 
-        real-world challenges. Let's team up to transform your ideas into reality!
+      An Aspiring Software Engineer based in London,
+       United Kingdom, with a strong commitment to driving innovation in low-level embedded software development.
+        My proficiency in HTML, CSS, Python, JavaScript, React coupled with a Master's degree in Software Engineering 
+        from the University of West London, positions me as a dynamic and versatile professional eager to contribute to the development and 
+        validation of power management devices.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index)=>(
