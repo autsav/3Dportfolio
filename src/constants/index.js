@@ -224,7 +224,7 @@ import {
     {
       name: "E Commerce",
       description:
-        "Web application that enables users to search for products ,add to cart and checkout.",
+        "A dynamic web application designed to empower users with seamless product exploration, effortless cart management, and a streamlined checkout experience. Unleash the convenience of intuitive product searches, swift additions to your cart, and a hassle-free checkout process, all at your fingertips.",
       tags: [
         {
           name: "react",
@@ -245,7 +245,7 @@ import {
     {
       name: "Instagram Clone",
       description:
-        "A comprehensive web application to share photos, like , comment to others post. ",
+        "Embark on a visual journey with our comprehensive web application, where users can effortlessly share captivating photos and engage in a vibrant community. Experience the joy of expressing appreciation through likes and fostering meaningful conversations by leaving thoughtful comments on others' posts. Immerse yourself in a platform that seamlessly connects individuals through the art of visual storytelling ",
       tags: [
         {
           name: "Laravel",
