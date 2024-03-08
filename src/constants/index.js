@@ -201,37 +201,37 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Hotel Management System",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "JavaScripts",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "SQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/autsav/hotel-management-system",
     },
     {
-      name: "Job IT",
+      name: "E Commerce",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search for products ,add to cart and checkout.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Python",
           color: "green-text-gradient",
         },
         {
@@ -240,19 +240,19 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/autsav/ecommerce",
     },
     {
-      name: "Trip Guide",
+      name: "Instagram Clone",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive web application to share photos, like , comment to others post. ",
       tags: [
         {
-          name: "nextjs",
+          name: "Laravel",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "php ",
           color: "green-text-gradient",
         },
         {
@@ -261,7 +261,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/autsav/InstaClone",
     },
   ];
   
